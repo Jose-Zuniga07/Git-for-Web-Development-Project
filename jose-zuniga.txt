@@ -1,0 +1,111 @@
+link to finish codepen:
+
+https://codepen.io/aotikz/pen/XWgdzJo?editors=1100
+
+1. What is Semantic HTML? 
+    gives it a meaning
+    2. What is HTML used for? 
+    build structure of a webpage
+    3. What is an attribute and where do we put it? 
+    atrribute provides additional information about the content of an element. It is put in the opening tag. (<p lang="">)
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    h1 is used for the main heading, when there is going to be a main header on a section
+    5. Name two tags that have required attributes
+    links and imgages
+    6. What do we put in the head of our HTML document?
+    title
+    7. What is an id?
+    is a unique identifier 
+    8. What elements can I add an id to?
+    you can put it on a p tag, div tag, span tag 
+    9. How many times can I use the same id on a page? 
+    once
+    10. What is a class? 
+    where you want to identify several elements as being different from others
+    11. What elements can I add a class to?
+    div, section, p
+    12. How many times can I use the same class on a page?
+    if you want to target the same element more than once on many lines
+    13. How do I get my link to open in a new tab?
+    target="_blank"
+    14. What is the alt attribute in the image tag used for?
+    for screen readers or if page doesnt load up pic it defines what it is in writing about 
+    15. How do I reference an id?
+    #
+    16. What is the difference between a section and a div?
+    sections provides better markup on what you are seperating and div are containers for inside of sections for elements 
+    17. What is CSS used for?
+    style the webpage, to make it look pretty 
+    18. How to we select an element? Example - every h2 on the page
+    h2 {
+
+    }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    if you want to target every paragraph use the class and if you want to target a specific element inside that paragraph or a paragraph you use an id 
+    20. How do we select classes in CSS?
+    we use the period selector
+    21. How do we select a p element with a single class of “human””?
+    .human
+    22. What is a parent child selector? When would this be useful? 
+    when you want to target a specific child you use the parent first then child
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar a {
+
+    }
+    24. What is a pseudo selector?
+    defines a special state of an element 
+    25. What do we use to change the spacing between lines?
+    br>
+    26. What do we use to change the spacing between letters?
+    letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform property
+    28. How do I add a 1px border around my div that is dotted and black?
+    div {
+        border: 1px solid black;
+    }
+    29. How do I select everything on the page?
+    * {
+
+    }
+    30. How do I write a comment in CSS?
+    /**/
+    31. How do I find out what file I am in, when I am using the command line?
+    pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+    use the rm command but you need to becareful because it deletes perman. 
+    34. Why should I use version control?
+    helps team solve problems
+    35. How often should I commit to github?
+    every 20min or when you do a big change
+    36. What is the command we would use to push our repo up to github?
+    git push -u origin branch-name
+    37. Walk me through Lambda's git flow.
+    1.)Create YOUR OWN version of Repo by forking
+    2.)Clone your Repo using github https by hitting the copying link
+    3.)create a directory using mkdir
+    4.)cd  into the directory that you created where you are going to want to clone your forked Repo
+    5.)git clone <paste link of repo>
+    6.)cd into that repos folder
+    7.)use the git checkout -b 'firstname-lastname' to create your own branch(remember the name)
+    8.)use the code . to open work and edit
+    9.) after edits are done do:
+    git add . (which will add changes to repo)
+    10.)git commit -m 'insert message here what changes you made'
+    11.)git push -u origin branch-name (this will push onto your github)
+    12.)go to your forked project on github and select branch:master to your name
+    13.)then click on compare& pull request
+    14.)then click on base repository and change it to your forked repo name
+    15.) click on create pull request
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    inline doesnt take up its own space where as block element take its own block
+    2. What happens when an element is positioned absolutely?
+    position absolutely is positioned to its closest ancestor
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
